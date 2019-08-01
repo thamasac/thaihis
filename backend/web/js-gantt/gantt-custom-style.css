@@ -1,0 +1,129 @@
+.red .gantt_cell, .odd.red .gantt_cell,
+.red .gantt_task_cell, .odd.red .gantt_task_cell {
+    background-color: #FDE0E0;
+}
+
+.green .gantt_cell, .odd.green .gantt_cell,
+.green .gantt_task_cell, .odd.green .gantt_task_cell {
+    background-color: #BEE4BE;
+}
+
+.yellow .gantt_cell, .odd.yellow .gantt_cell,
+.yellow .gantt_task_cell, .odd.yellow .gantt_task_cell {
+    background-color: #FBF5A8;
+}
+.gray .gantt_cell, .odd.gray .gantt_cell,
+.gray .gantt_task_cell, .odd.gray .gantt_task_cell {
+    background-color: #E6E6E6;
+}
+
+.high {
+    border: 2px solid #d96c49;
+    color: #d96c49;
+    background: #d96c49;
+}
+
+.high .gantt_task_progress {
+    background: #db2536;
+}
+
+.medium {
+    border: 2px solid #34c461;
+    color: #34c461;
+    background: #34c461;
+}
+
+.medium .gantt_task_progress {
+    background: #23964d;
+}
+
+.low {
+    border: 2px solid #6ba8e3;
+    color: #6ba8e3;
+    background: #6ba8e3;
+}
+
+.low .gantt_task_progress {
+    background: #547dab;
+}
+.status_line {
+    background-color: #0ca30a;
+}
+
+.overdue-indicator {
+    width: 24px;
+    margin-top: 5px;
+    height: 24px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 17px;
+    color: white;
+    background: rgb(255, 60, 60);
+    line-height: 25px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.deadline {
+    position: absolute;
+    -moz-box-sizing: border-box;
+    color: white;
+    background: rgb(77, 77, 255);
+    margin-left: -11px;
+    border-radius: 15px;
+    width: 24px;
+    font-size: 20px;
+    text-align: center;
+    z-index: 1;
+}
+
+.overdue-indicator-danger {
+    width: 24px;
+    margin-top: 5px;
+    height: 24px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 17px;
+    color: red;
+    line-height: 25px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.overdue-indicator-warning {
+    width: 24px;
+    margin-top: 5px;
+    height: 24px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 17px;
+    color: #FFCC33;
+    line-height: 25px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.custom_progress {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    height: 100%;
+}
+
+.custom_progress.warning {
+    background-color: #ffd11a;
+}
+
+.custom_progress.success {
+    background-color: #00e600;
+}
+
+.custom_progress.info {
+    background-color: #00bfff;
+}
+.custom_progress.danger {
+    background-color: #d9534f;
+}
+.custom_progress.primary {
+    background-color: #2e6da4;
+}

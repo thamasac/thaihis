@@ -1,0 +1,31 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 25, 2017, 10:58:33 AM
+    Author     : appxq
+*/
+
+.underline:hover, .underline:focus{
+    text-decoration: none;
+}
+
+.dropdown-menu > .active > a .btn-xs.btn-info, 
+.dropdown-menu > .active > a:hover .btn-xs.btn-info, 
+.dropdown-menu > .active > a:focus .btn-xs.btn-info {
+    color: #fff;
+}
+
+.del-list{
+    color: #d9534f;
+}
+
+.del-list:hover{
+    color: #c9302c;
+}
+
+.popover{
+    z-index: 1040 !important;
+}

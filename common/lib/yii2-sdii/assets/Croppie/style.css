@@ -1,0 +1,18 @@
+.upload-croppie .upload-edit, .upload-croppie .upload-action,
+.upload-croppie .upload-result,
+.upload-croppie.ready .upload-msg {
+    display: none;
+}
+.upload-croppie.ready .upload-action {
+    display: block;
+}
+.upload-croppie.ready .upload-edit {
+    display: block;
+}
+.upload-croppie.ready .upload-result {
+    display: inline-block;
+}
+.upload-msg {
+    width: 260px;
+    margin: 50px auto;
+}

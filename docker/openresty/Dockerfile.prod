@@ -1,0 +1,15 @@
+# Dockerfile - alpine
+# https://bitbucket.org/domecloud/openresty
+
+FROM openresty/openresty:alpine-fat
+
+MAINTAINER Sathit Seethaphon <dixonsatit@gmail.com>
+
+RUN apk upgrade --update && apk --no-cache add git \
+&& rm -rf /var/cache/apk/*
+
+# RUN /usr/local/openresty/luajit/bin/luarocks install lua-resty-mysql 
+
+COPY conf.prod/ /usr/local/openresty/nginx/conf/
+
+ENTRYPOINT ["/usr/local/openresty/bin/openresty", "-g", "daemon off;"]

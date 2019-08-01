@@ -1,0 +1,22 @@
+.card {
+    border-radius: 6px;
+    box-shadow: 0 2px 2px rgba(204, 197, 185, 0.5);
+    background-color: #FFFFFF;
+    color: #252422;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+.card .content {
+    padding: 15px 15px 10px 15px;
+}
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+.card ul.team-members li:not(:last-child) {
+    border-bottom: 1px solid #F1EAE0;
+}
+.card ul.team-members li {
+    padding: 10px 0px;
+}

@@ -1,0 +1,236 @@
+.breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: #f8f8f8;
+    border-radius: 4px;
+    border: 1px solid #e7e7e7;
+}
+
+.table-hover tbody tr:hover td, 
+.table-hover tbody tr:hover th {
+  background-color: #efefef;
+}
+
+.table > thead > tr > td.active, 
+.table > tbody > tr > td.active, 
+.table > tfoot > tr > td.active, 
+.table > thead > tr > th.active, 
+.table > tbody > tr > th.active, 
+.table > tfoot > tr > th.active, 
+.table > thead > tr.active > td, 
+.table > tbody > tr.active > td, 
+.table > tfoot > tr.active > td, 
+.table > thead > tr.active > th, 
+.table > tbody > tr.active > th, 
+.table > tfoot > tr.active > th {
+    background-color: #f8f8f8;
+}
+
+.pagination {
+  margin: 0;
+}
+.grid-view .panel .summary {
+  margin-bottom: 5px;
+  text-align: left;
+  margin-top: 5px;
+}
+
+.panel-footer {
+  padding: 10px 10px 5px 10px;
+}
+
+.nav-list > li > a {
+	display: block;
+	padding: 3px 20px;
+	clear: both;
+}
+
+.nav-list>li.active>a, 
+.nav-list>li.active>a:hover, 
+.nav-list>li.active>a:focus {
+	color: #fff;
+	background-color: #428bca;
+}
+
+.nav-list .divider {
+	height: 1px;
+	margin: 9px 0;
+	overflow: hidden;
+	background-color: #e5e5e5;
+}
+
+
+.sdbox-header h1, .sdbox-header .h1, .sdbox-header h2, .sdbox-header .h2, .sdbox-header h3, .sdbox-header .h3 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.sdbox-header h4, .sdbox-header .h4, .sdbox-header h5, .sdbox-header .h5, .sdbox-header h6, .sdbox-header .h6 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+/*.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}*/
+
+.jumbotron.topsite{
+    margin: 0px;
+    margin-bottom: 15px;
+    background-color: #269B9E;
+    color: #fff;
+    /*background-image: url(http://medipoint.elated-themes.com/wp-content/uploads/2017/06/Landing-Slider-1.jpg);*/
+}
+
+.container.content{
+    background-image: url(http://medipoint.elated-themes.com/wp-content/uploads/2017/05/dentist-home-back-1-1.png?id=618) !important;
+    background-position: bottom !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+}
+
+.jumbotron.footer{
+    margin: 0px;
+    padding: 15px;
+}
+
+.jumbotron.footer p {
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: /*"\e113"*/ "\e151";
+}
+
+a.desc:after {
+    content: /*"\e114"*/ "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view th {
+    white-space: nowrap;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+iframe {
+    position: relative;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 0px;
+    outline: 0;
+}
+
+.tooltip {
+  z-index: 9999;
+  font-size: 14px;
+}
+
+.tooltip-inner {
+  max-width: 400px;
+  color: #333;
+  background-color: #e2e2e2;
+}
+
+.tooltip.top .tooltip-arrow, .tooltip.right .tooltip-arrow, .tooltip.bottom .tooltip-arrow, .tooltip.left .tooltip-arrow {
+  border-top-color: #e2e2e2;
+}
+
+
+.tooltip .tooltip-arrow {
+  border-top-color: #e2e2e2;
+}
+
+.modal-xl {
+    width: 80%;
+    
+}
+
+input[type="radio"]:checked + span,
+input[type="checkbox"]:checked + span {
+    padding: 2px 4px;
+    border: 1px solid #0095ff;
+    background-color: #0095ff;
+    color: #fff;
+}
+
+.radio input[type="text"], 
+.checkbox input[type="text"], 
+.radio-inline input[type="text"], 
+.checkbox-inline input[type="text"] {
+    display: inline-block; 
+    width: inherit;
+}
+
+.radio input[type="radio"], 
+.radio-inline input[type="radio"], 
+.checkbox input[type="checkbox"], 
+.checkbox-inline input[type="checkbox"] {
+    position: inherit;
+}
+
+.datepicker {z-index: 1155 !important ;}
+
+.ui-autocomplete {
+     z-index: 9999 !important;
+}
+
+.table.eztable>tbody>tr>td, .table.eztable>tbody>tr>th, .table.eztable>tfoot>tr>td, .table.eztable>tfoot>tr>th, .table.eztable>thead>tr>td, .table.eztable>thead>tr>th {
+    border-top: inherit !important;
+}

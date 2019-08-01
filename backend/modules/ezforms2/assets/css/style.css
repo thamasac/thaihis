@@ -1,0 +1,112 @@
+.items-sidebar.navbar-collapse{
+    position: fixed;
+    width: 350px;
+    margin-left: 225px;
+    top: 51px;
+    left: 0px;
+    bottom: 0px;
+    z-index: 1025;
+    background-color: #f8f8f8;
+    border-right: 1px solid #ddd;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 0;
+    /*	-webkit-box-shadow: -1px 0px 3px 0px rgba(0,0,0,0.15);
+            -moz-box-shadow: -1px 0px 3px 0px rgba(0,0,0,0.15);
+            box-shadow: -1px 0px 3px 0px rgba(0,0,0,0.15);*/
+}
+
+.page-sidebar-closed .items-sidebar.navbar-collapse {
+    margin-left: 45px;
+}
+
+.a-collapse{
+    cursor: pointer;
+    color: #FFF;
+    width: 35px;
+}
+
+.a-collapse:hover{
+    text-decoration: none;
+    color: #FFF;
+}
+
+.items-views  {
+    margin-left: 350px;
+}
+
+.form-control.search-query {
+    padding-left: 14px;
+    padding-right: 14px;
+    margin-bottom: 0;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    border-radius: 14px;
+}
+
+.list-view .item a.media {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    display: block;
+    color: #666;
+}
+
+.list-view .item a.media:hover {
+    text-decoration: none;
+    background-color: #eee;
+}
+
+.list-view .item a.media.active {
+    background-color: #d1ecf1;
+}
+
+.list-view .item a.media.active:hover {
+    background-color: #d1ecf1;
+}
+
+.list-view .item a.media:focus {
+    text-decoration: none;
+}
+
+.item-heading{
+    color: #444;
+}
+
+.list-pager{
+    padding: 5px;
+}
+
+.list-pager .pagination > li:last-child > a, .list-pager .pagination > li:last-child > span,
+.list-pager .pagination > li:first-child > a, .list-pager .pagination > li:first-child > span{
+    border-radius: 0px;
+}
+
+.list-view.dad-container {
+    padding: 0 !important;
+}
+
+.list-view .dads-children{
+    padding: 0 !important;
+    z-index: inherit !important;
+}
+
+@media (max-width: 767px) {
+    .items-sidebar.navbar-collapse {
+        position: fixed;
+        width: 100%;
+        z-index: 1025;
+        max-height: 100%;
+        top: 51px;
+        margin-left: 0;
+        padding: 0;
+        background-color: #f8f8f8;
+    }
+
+    .items-views  {
+        margin-left: 0;
+    }
+
+    .page-sidebar-closed .items-sidebar.navbar-collapse {
+        margin-left: 0;
+    }
+}

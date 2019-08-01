@@ -1,0 +1,6 @@
+*
+!.gitignore
+!/bg
+!/data
+/bg/*
+/data/*

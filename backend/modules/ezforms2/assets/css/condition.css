@@ -1,0 +1,33 @@
+#conditionTabContent{
+    background-color: #fff;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+.list-group-item{
+    cursor: pointer;
+}
+
+.field-item{
+    font-size: 14px !important;
+    line-height: 28px !important;
+}
+
+.close.btn-del {
+    float: none;
+}
+
+.display-none{
+    display: none !important;
+}
+
+.display-block{
+    display: block !important;
+}
+
+.display-fix-none{
+    display: none !important;
+}
+

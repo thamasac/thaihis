@@ -1,0 +1,1 @@
+<button type="button" class="btn btn-default kv-toolbar-btn kv-create" title="<?= Yii::t('ezform', 'Add new')?>"><span class="kv-icon-10 fa fa-plus"></span></button>

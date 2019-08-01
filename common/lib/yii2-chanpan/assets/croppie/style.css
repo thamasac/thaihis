@@ -1,0 +1,21 @@
+.upload-edit #upload-edit, .upload-edit #upload-action,
+.upload-edit .upload-result,
+.upload-edit.ready .upload-msg {
+    display: none;
+}
+.upload-edit.ready #upload-action {
+    display: block;
+}
+.upload-edit.ready #upload-edit {
+    display: block;
+}
+.upload-edit.ready .upload-result {
+    display: inline-block;
+}
+
+.upload-msg {
+
+    width: 260px;
+    margin: 50px auto;
+
+}

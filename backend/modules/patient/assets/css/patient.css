@@ -1,0 +1,163 @@
+.panel-patient-info > .panel-heading {
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #5bc0de;
+}
+
+.panel-patient-danger > .panel-heading {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb; 
+}
+
+.panel-patient-primary > .panel-heading{
+    color: #004085;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+}
+
+.panel-patient-warning > .panel-heading{
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+}
+
+
+.alert-patient {
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+
+/*.alert-patient:hover{
+    border-color: #9ea0a1;
+}*/
+
+.alert-patient-heading {
+    color: inherit;
+}
+
+.alert-patient-link {
+    font-weight: bold;
+}
+
+.alert-patient-dismissible .close {
+    position: relative;
+    top: -0.75rem;
+    right: -1.25rem;
+    padding: 0.75rem 1.25rem;
+    color: inherit;
+}
+
+.alert-patient-primary {
+    color: #004085;
+    background-color: #cce5ff;
+    border-color: #b8daff;
+}
+
+.alert-patient-primary hr {
+    border-top-color: #9fcdff;
+}
+
+.alert-patient-primary .alert-patient-link {
+    color: #002752;
+}
+
+.alert-patient-secondary {
+    color: #464a4e;
+    background-color: #e7e8ea;
+    border-color: #dddfe2;
+}
+
+.alert-patient-secondary hr {
+    border-top-color: #cfd2d6;
+}
+
+.alert-patient-secondary .alert-patient-link {
+    color: #2e3133;
+}
+
+.alert-patient-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.alert-patient-success hr {
+    border-top-color: #b1dfbb;
+}
+
+.alert-patient-success .alert-patient-link {
+    color: #0b2e13;
+}
+
+.alert-patient-info {
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+}
+
+.alert-patient-info hr {
+    border-top-color: #abdde5;
+}
+
+.alert-patient-info .alert-patient-link {
+    color: #062c33;
+}
+
+.alert-patient-warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+}
+
+.alert-patient-warning hr {
+    border-top-color: #ffe8a1;
+}
+
+.alert-patient-warning .alert-patient-link {
+    color: #533f03;
+}
+
+.alert-patient-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.alert-patient-danger hr {
+    border-top-color: #f1b0b7;
+}
+
+.alert-patient-danger .alert-patient-link {
+    color: #491217;
+}
+
+.alert-patient-light {
+    color: #818182;
+    background-color: #fefefe;
+    border-color: #fdfdfe;
+}
+
+.alert-patient-light hr {
+    border-top-color: #ececf6;
+}
+
+.alert-patient-light .alert-patient-link {
+    color: #686868;
+}
+
+.alert-patient-dark {
+    color: #1b1e21;
+    background-color: #d6d8d9;
+    border-color: #c6c8ca;
+}
+
+.alert-patient-dark hr {
+    border-top-color: #b9bbbe;
+}
+
+.alert-patient-dark .alert-patient-link {
+    color: #040505;
+}

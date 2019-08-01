@@ -1,0 +1,180 @@
+/* Landscape phones
+------------------------- */
+@media (max-width: 480px) {
+
+}
+
+/* Tablet mini
+------------------------- */
+@media (max-width: 767px) {
+	.nav.navbar-nav.pull-right{
+		float: none !important;
+	}
+	
+	.sdbox-col {
+		padding-top: 15px;
+		padding-left: 15px;
+	}
+	
+	.page-container {
+		margin: 0 !important;
+		/*padding: 0 !important;*/
+		margin-left: 0 !important;
+	}
+
+	.page-sidebar-closed .page-container{
+		margin-left: 0 !important;
+	}
+
+	/***
+	Page sidebar
+	***/
+
+	.page-sidebar.navbar-collapse {
+		position: fixed;
+		width: 100%;
+		z-index: 1025;
+		max-height: 100%;
+		top: 51px;
+	}
+
+	.page-sidebar .sidebar-toggler-item {
+		display: none;
+	}
+
+	
+	.page-sidebar .selected {
+		display: none !important;
+	}
+}
+
+/* Tablet to desktop
+------------------------- */
+@media (min-width: 768px){
+
+	/***
+	Page sidebar
+	***/
+
+	.page-sidebar .btn-navbar.collapsed .arrow { 
+		display: none;
+	}	
+
+	.page-sidebar .btn-navbar .arrow {
+		position: absolute;
+		right: 25px;
+		width: 0; 
+		height: 0;
+		top:50px;
+		border-bottom: 15px solid #5f646b;
+		border-left: 15px solid transparent; 
+		border-right: 15px solid transparent; 
+	}
+
+	.page-sidebar {
+		position: absolute;
+		width: 225px;
+		z-index: 1035;
+	}
+
+	.page-sidebar-fixed .page-sidebar {
+		position: fixed !important;
+		top: 0px;
+	}
+
+	.page-sidebar-fixed ul.page-sidebar-menu > li.last {
+		margin-bottom: 15px !important;
+	}
+
+	.page-sidebar-fixed.page-sidebar-closed .page-sidebar:hover,
+	.page-sidebar-fixed.page-sidebar-closed .page-sidebar:hover .page-sidebar-menu{
+		width: 225px !important;
+		-webkit-transition: all .1s linear;
+		-moz-transition: all .1s linear;
+		-o-transition: all .1s linear;
+		transition: all .1s linear;
+
+	}
+
+	.page-sidebar-fixed.page-sidebar-closed .page-sidebar,
+	.page-sidebar-fixed.page-sidebar-closed .page-sidebar .page-sidebar-menu{
+		-webkit-transition: all .1s linear;
+		-moz-transition: all .1s linear;
+		-o-transition: all .1s linear;
+		transition: all .1s linear;
+	}
+
+}
+
+/* Desktop mini
+------------------------- */
+@media (max-width: 991px) {
+
+	.sdbox-col {
+		padding-top: 15px;
+		padding-left: 15px;
+	}
+	
+	.page-container {
+		margin: 0px ;
+		padding: 0px ;
+		margin-left: 225px ;
+	}
+
+	.page-sidebar-closed .page-container{
+		margin-left: 45px ;
+	}
+
+	.right-sidebar {
+		position: inherit;
+		margin: 0 15px 15px 15px;
+		top: auto;
+		z-index: auto;
+		width: auto;
+		height: auto;
+		background: #fff; /* whole background property since we use a background-image for gradient */
+		-webkit-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.15);
+		-moz-box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.15);
+		box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.15);
+		border: none;
+		padding: 10px;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+	}
+
+	.column2 {
+		margin-right: 0;
+	}
+
+}
+
+/* Desktop Middle */
+@media (min-width: 992px) { 
+	
+	.sdmodal-lg{
+		width: 980px;
+	}
+
+	.sdmodal-md{
+		width: 800px;
+	}
+
+	.sdmodal-sm{
+		width: 600px;
+	}
+}
+
+
+/* Desktop large
+------------------------- */
+@media (min-width: 1200px) {
+
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1) {
+
+}

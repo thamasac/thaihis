@@ -1,0 +1,21 @@
+{
+    "name": "appxq/yii2-sdii",
+    "description": "SDII Full package",
+    "type": "library",
+    "keywords": ["yii2","extension","library"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SDII",
+            "email": "iencoded@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "appxq\\sdii\\": ""
+        }
+    }
+}

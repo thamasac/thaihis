@@ -1,0 +1,90 @@
+[class^="iconcolor-"],
+[class*=" iconcolor-"] {
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	vertical-align: text-top;
+	background-repeat: no-repeat;
+	*margin-right: .3em;
+}
+
+[class^="iconcolor-"]:last-child,
+[class*=" iconcolor-"]:last-child {
+	*margin-left: 0;
+}
+
+.iconcolor-add{
+	background-image: url(../img/icon/add.png);
+}
+.iconcolor-accept{
+	background-image: url(../img/icon/accept.png);
+}
+.iconcolor-attachment{
+	background-image: url(../img/icon/attachment.png);
+}
+.iconcolor-msg{
+	background-image: url(../img/icon/msg.png);
+}
+.iconcolor-bug{
+	background-image: url(../img/icon/bug.png);
+}
+.iconcolor-comment{
+	background-image: url(../img/icon/comment.png);
+}
+.iconcolor-connect{
+	background-image: url(../img/icon/connect.png);
+}
+.iconcolor-disconnect{
+	background-image: url(../img/icon/disconnect.png);
+}
+.iconcolor-help{
+	background-image: url(../img/icon/help.png);
+}
+.iconcolor-remove{
+	background-image: url(../img/icon/remove.png);
+}
+.iconcolor-search{
+	background-image: url(../img/icon/search.png);
+}
+.iconcolor-warning{
+	background-image: url(../img/icon/warning.png);
+}
+.iconcolor-info{
+	background-image: url(../img/icon/info.png);
+}
+.iconcolor-eraser{
+	background-image: url(../img/icon/eraser.png);
+}
+.iconcolor-paint{
+	background-image: url(../img/icon/paint.png);
+}
+.iconcolor-clear_draw{
+	background-image: url(../img/icon/clear_draw.png);
+}
+
+.iconcolor-red{
+	background-image: url(../img/icon/red.png);
+}
+.iconcolor-blue{
+	background-image: url(../img/icon/blue.png);
+}
+.iconcolor-yellow{
+	background-image: url(../img/icon/yellow.png);
+}
+.iconcolor-black{
+	background-image: url(../img/icon/black.png);
+}
+
+.iconcolor-line2{
+	background-image: url(../img/icon/line2.png);
+}
+.iconcolor-line4{
+	background-image: url(../img/icon/line4.png);
+}
+.iconcolor-line6{
+	background-image: url(../img/icon/line6.png);
+}
+.iconcolor-line8{
+	background-image: url(../img/icon/line8.png);
+}

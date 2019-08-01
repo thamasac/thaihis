@@ -1,0 +1,59 @@
+
+.canvasDraw{
+	text-align: center;
+	position: relative;
+}
+.canvasDraw_box{
+    position: relative;
+    display: inline-block;
+}
+.textAreaPopUp .saveText{
+    padding-bottom: 10px;
+}
+.drawingBox{
+	border: 1px solid #AAA;
+}
+
+.drawingToo{
+	margin-bottom: 5px;
+	display: inline-block;
+}
+
+.disabledDisplay{
+    display: none !important;
+}
+
+.save-btn-drawing{
+    margin-bottom: 15px;
+}
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+}
+
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+.drawingContent{
+    position: absolute;
+    z-index: 900;
+    top: 50px;
+    left: 20px;
+}
+
+.btn-toolbar{
+/*    position: absolute;
+    top: -550px;
+    left: -25px;*/
+
+}
